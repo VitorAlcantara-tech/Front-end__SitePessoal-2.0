@@ -72,6 +72,7 @@
 
                         <div class="btn__contato">
                             <a href="#contato"><button>Entre em contato</button></a>
+                            <a href="/Vitor ALCANTARA.pdf" download><button>Acesse meu currículo</button></a>
                         </div>
                     </div> <!--txt__topo__site-->
 
@@ -90,25 +91,26 @@
                     <div class="especialidades__box">
                         <img src="/img/python.png" alt="Icone python">
                         <h3>Python</h3>
-                        <p>Especializado em lógica de programação</p>
+                        <p>Utilizado em aplicações da Web, desenvolvimento de software, ciência de dados e machine
+                            learning.</p>
                     </div><!--especialidades__box-->
 
                     <div class="especialidades__box">
                         <img src="/img/javascript.png" alt="Icone JavaScript">
                         <h3>JavaScript</h3>
-                        <p>Especializado em interatividade em páginas web</p>
+                        <p>Usada para adicionar interatividade e dinamismo a páginas web.</p>
                     </div><!--especialidades__box-->
 
                     <div class="especialidades__box">
                         <img src="/img/html.png" alt="Icone html">
                         <h3>HTML-5</h3>
-                        <p>Linguagem de Marcação de Hipertexto</p>
+                        <p>Linguagem de Marcação de Hipertexto.</p>
                     </div><!--especialidades__box-->
 
                     <div class="especialidades__box">
                         <img src="/img/css.png" alt="Icone css">
                         <h3>CSS-3</h3>
-                        <p>Linguagem de estilização de elementos HTML</p>
+                        <p>Linguagem de estilização de elementos HTML.</p>
                     </div><!--especialidades__box-->
 
 
@@ -120,13 +122,14 @@
             <div class="interface">
                 <div class="flex">
                     <div class="img__sobre">
-                        <img src="/img/Vitor_Hexagono.png" alt="Foto Vitor Profissional">
+                        <img class="imagemVitor" src="/img/vitor10.JPG" alt="Foto Vitor Profissional">
                     </div><!--img__sobre-->
                     <div class="txt__sobre">
                         <h2>MUITO PRAZER, <span>SOU VITOR ALCANTARA.</span></h2>
-                        <p>Estudante de Engenharia de Software na FIAP, em busca de oportunidades para atuar como
+                        <p>Estudante de Engenharia de Software na FIAP - SP, em busca de oportunidades para atuar como
                             desenvolvedor e aplicar na prática os conhecimentos adquiridos tanto na graduação quanto em
-                            cursos extracurriculares. Tenho interesse genuíno em tecnologia e estou sempre em busca de
+                            cursos extracurriculares. Tenho interesse genuíno em tecnologia e estou sempre disposto em
+                            buscar
                             novos aprendizados que possam contribuir para minha evolução profissional e pessoal.</p>
                         <p>Me considero uma pessoa comunicativa e colaborativa, com facilidade para trabalhar em equipe
                             e compreender a importância da boa interação para o sucesso de um projeto. Gosto de
@@ -164,7 +167,8 @@
                         <div class="botoes-projeto">
                             <a href="https://github.com/VitorAlcantara-tech/ProjetoPessoal" target="_blank"
                                 class="botao-projeto">GitHub</a>
-                            <a href="https://seusitepublicado.com" target="_blank" class="botao-projeto">Ver Site</a>
+                            <a href="https://projeto-pessoal-three.vercel.app/" target="_blank"
+                                class="botao-projeto">Ver Site</a>
                         </div>
                     </div>
 
@@ -214,7 +218,10 @@
                 <p class="txt__contato">Tenho interesse constante em novos projetos e parcerias. Fique à vontade para
                     entrar em contato caso tenha dúvidas ou queira discutir oportunidades.</p>
                 <p class="email cinza">Email</p>
-                <p class="email"><i class="bi bi-envelope"></i>vitoralcan5@gmail.com</p>
+                <div class="alinhamento__email">
+                    <p class="email" id="email" onclick="copiarTexto()"><i class="bi bi-envelope"></i>vitoralcan5@gmail.com</p>
+                    <button onclick="copiarTexto()">Copiar</button>
+                </div>
                 <p class="conectar cinza">Conecte-se comigo:</p>
                 <div class="btn__social__conectar conectar">
                     <a href="https://www.linkedin.com/in/vitor-alcantara"><button><i
