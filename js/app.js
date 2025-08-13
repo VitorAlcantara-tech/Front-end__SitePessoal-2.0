@@ -14,6 +14,23 @@ overlay.addEventListener('click', ()=> {
     menu.classList.remove('abrir__menu');
 })
 
+
+
+// Espera o conteúdo da página ser totalmente carregado
+document.addEventListener('DOMContentLoaded', function() {
+    
+    // Seleciona todos os elementos com a classe 'card'
+    const conteudos = document.querySelectorAll('.interface');
+
+    
+    conteudos.forEach(function(conteudo) {
+        conteudo.classList.add('show');
+    });
+
+});
+
+
+
 function copiarTexto() {
     const texto = document.getElementById('email').innerText;
 
