@@ -279,6 +279,10 @@ section.especialidades .flex {
     margin: 15px 0;
 }
 
+.frameworks {
+    margin-top: 50px;
+}
+
 /* ESTILO DO SOBRE */
 section.sobre {
     padding: 80px 4%;
@@ -336,7 +340,7 @@ section.sobre .flex {
 
 .imagemVitor {
     width: auto;
-    height: 500px;
+    height: 550px;
     border-radius: 10px;
 }
 
