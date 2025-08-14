@@ -276,6 +276,7 @@ section.especialidades .flex {
 .especialidades__box {
     color: var(--cor-fonte-branca);
     padding: 40px;
+    width: 30px;
     margin-top: 25px;
     transition: 0.2s;
     border-radius: 25px;
