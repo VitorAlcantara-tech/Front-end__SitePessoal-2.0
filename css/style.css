@@ -262,6 +262,8 @@ section.especialidades {
 
 section.especialidades .flex {
     gap: 60px;
+    align-items: center;
+    justify-content: center;
 }
 
 .wrap {
