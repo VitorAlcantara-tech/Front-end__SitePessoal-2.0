@@ -273,7 +273,7 @@ section.especialidades .flex {
     height: auto;
 }
 
-.especialidades .especialidades__box {
+.especialidades__box {
     color: var(--cor-fonte-branca);
     padding: 40px;
     margin-top: 25px;
