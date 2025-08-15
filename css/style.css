@@ -32,12 +32,15 @@ body {
 .interface {
     max-width: 100%;
     margin: 0 4%;
-    transform: translateY(50px);
-    transition: opacity 2.6s ease-out, transform 0.6s ease-out;
-    opacity: 0;
 }
 
-.interface.show {
+.fade-in {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in.show {
     opacity: 1;
     transform: translateY(0);
 }
@@ -69,7 +72,6 @@ h2.titulo span {
     background: linear-gradient(135deg, #00ff9f, #00d6b3);
     /* verde neon com variação */
     color: black;
-
     padding: 12px 28px;
     border: none;
     border-radius: 30px;
@@ -150,7 +152,7 @@ header nav.menu__desktop ul li {
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 999;
+    z-index: 1000;
     width: 0%;
     overflow: hidden;
     transition: 0.3s;
@@ -257,11 +259,11 @@ section.topo__do__site .flex {
 
 /* ESTILO ESPECIALIDADES */
 section.especialidades {
-    padding: 40px 4%;
+    padding: 80px 4%;
 }
 
 section.especialidades .flex {
-    gap: 60px;
+    gap: 40px;
 }
 
 .wrap {
@@ -275,11 +277,11 @@ section.especialidades .flex {
 
 .especialidades__box {
     color: var(--cor-fonte-branca);
-    padding: 40px;
+    width: 30%;
+    padding: 20px;
     margin-top: 25px;
     transition: 0.2s;
     border-radius: 25px;
-    text-align: left;
 }
 
 .especialidades .especialidades__box:hover {
@@ -582,6 +584,14 @@ footer .line__footer,
         display: none;
     }
 
+    .btn__contato__mobile{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    
+
     /* TOPO DO SITE */
     section.topo__do__site .flex {
         gap: 50px;
@@ -602,6 +612,7 @@ footer .line__footer,
     /* ESTILO ESPECIALIDADES */
     section.especialidades {
         padding: 40px 8%;
+        margin: 50px 0;
     }
 
     section.especialidades .flex {
@@ -611,12 +622,14 @@ footer .line__footer,
 
     .especialidades .especialidades__box {
         box-shadow: 0 0 10px white;
-        margin-inline: 6%;
+        width: 100%;
+        padding: 20px;
     }
 
     /* SOBRE */
     section.sobre {
-        padding: 80px 8%;
+        padding: 40px 8%;
+        margin: 50px 0;
     }
 
     .sobre .txt__sobre h2 {
@@ -651,6 +664,11 @@ footer .line__footer,
 
     section.portfolio .flex {
         gap: 50px;
+    }
+
+    .botoes-projeto{
+        display: flex;
+        gap: 25px;
     }
 
     /* ESTILO CONTATO */

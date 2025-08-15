@@ -20,7 +20,7 @@ overlay.addEventListener('click', ()=> {
 document.addEventListener('DOMContentLoaded', function() {
     
     // Seleciona todos os elementos com a classe 'card'
-    const conteudos = document.querySelectorAll('.interface');
+    const conteudos = document.querySelectorAll('.fade-in');
 
     
     conteudos.forEach(function(conteudo) {
